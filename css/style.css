@@ -1,0 +1,92 @@
+@charset "utf-8";
+@import url("../plugins/bootstrap/dist/css/bootstrap.min.css");
+@import url("../icons/font-awesome/css/font-awesome.css");
+@import url("../icons/simple-line-icons/css/simple-line-icons.css");
+/* CSS Document */
+
+body{
+	background-attachment: scroll;
+	background-size: cover;
+	background-image: url(../images/background.png);
+	margin: 0;
+	overflow-x: hidden;
+}
+.navigation{
+	list-style: none;
+}
+.navigation li{
+	padding:20px;
+	display: inline-block;
+	color:black;
+}
+.navigation li a{
+	color:white;
+	font-family: "century gothic", serif;
+	font-weight: bold;
+}
+.navigation li a:hover{
+	color:darkorchid;
+	text-decoration: none;
+}
+.center-block{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.home-1{
+	border: 05px solid white;
+	box-shadow: 2px 2px 20px 2px black;
+	border-radius: 40% 0% 40% 0%;
+}
+.control-label{
+color:white;
+}
+.formOne{
+	background-color:mediumvioletred;
+}
+.navbar-brand{
+	text-align: center;
+	font-size: 1.5em;
+	color:mintcream;
+	font-family: "segoe",serif;
+}
+.navbar-brand:focus{
+	text-align: center;
+	font-size: 1.5em;
+	color:crimson;
+	font-family: "segoe",serif;
+}
+.navbar-brand:hover{
+	text-align: center;
+	font-size: 1.5em;
+	color:crimson;
+	font-family: "segoe",serif;
+}
+.footer{
+	border-top: solid red;
+	color:white;
+}
+.footer-list{
+	list-style: none;
+	align-content: center;
+	
+}
+.footer-list li{
+	padding-bottom: 5px;
+}
+.footer-list li a{
+	color:white;
+	font-family: "century gothic",serif;
+	padding: inherit;
+	text-decoration: none;
+}
+.footer-list li a:hover{
+	color:darkorchid;
+}
+.social-link i:hover{
+	color:darkorchid;	
+	
+}
+.font-2 h2{
+	font-family:Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
